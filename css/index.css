@@ -138,19 +138,22 @@ html,
 body {
   height: 100%;
 }
-@plain : 
-
-
 .header {
   background-color: #cc00cc;
   display: flex;
+  justify-content: center;
   justify-content: space-around;
+  padding-left: 2em;
   color: #ffeb99;
+  font-family: 'Lobster', cursive;
   font-size: 3rem;
   padding-bottom: 3rem;
-  .navb {
-    font-size: 1rem;
-  }
+}
+.header .navb {
+  font-size: 1rem;
+  font-family: 'Fjalla One', sans-serif;
+  align-items: flex-end;
+  padding-top: 7em;
 }
 .navb {
   display: flex;
