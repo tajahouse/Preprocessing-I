@@ -47,6 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Fonts and styles
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Dosis', sans-serif;*/
 
 /* Set every element's box-sizing to border-box */
 * {
@@ -56,17 +60,35 @@ table {
 html, body {
     height: 100%;
 }
+//colors//
+@cream:#ffeb99;
+@purple:#cc00cc;
+@white:#ffffff;
+@mint:#80ffbf;
 
-header{
-	display: block;
-	background-color: darkmagenta;
+//fonts//
+@bold:Fjalla One', sans-serif;
+@cursive: Lobster', cursive;
+@plain: Dosis', sans-serif;
+
+
+.header{
+	background-color: @purple;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	color:@cream;
+	
 	font-size: 3rem;
 	padding-bottom: 3rem;
-}
+	.navb{
+	  font-size: 1rem;
+
+	}
+}//closes header
+
 .navb{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	
 }
 

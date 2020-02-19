@@ -126,6 +126,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* Fonts and styles
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Dosis', sans-serif;*/
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
@@ -134,15 +138,21 @@ html,
 body {
   height: 100%;
 }
-header {
-  display: block;
-  background-color: darkmagenta;
+@plain : 
+
+
+.header {
+  background-color: #cc00cc;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  color: #ffeb99;
   font-size: 3rem;
   padding-bottom: 3rem;
+  .navb {
+    font-size: 1rem;
+  }
 }
 .navb {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
