@@ -144,6 +144,9 @@ body {
 }
 body {
   padding: 0 4%;
+  background-image: url("../images/splash-img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .header {
   width: auto;
@@ -160,4 +163,10 @@ body {
 .header .links a {
   text-decoration: none;
   color: #cc00cc;
+}
+.me {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
