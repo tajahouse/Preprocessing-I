@@ -54,8 +54,10 @@ font-family: 'Dosis', sans-serif;*/
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
+
 
 html, body {
     height: 100%;
@@ -95,11 +97,16 @@ html, body {
 	  font-family: @bold;
 	  align-items: flex-end;
 	  padding-top: 7em;
-	//   background color: rbga(128, 255, 191,.4 )
-
-	  
+	//   background color: rbga(128, 255, 191,.4 )  
 
 	}//closes nav bar
+
+	img{
+		width:100%;
+		height:5vh;
+		display:none;
+
+	}//closes selfie pic
 }//closes header
 
 .navb{
