@@ -45,7 +45,7 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 5em;
 }
 /* Fonts and styles
 font-family: 'Fjalla One', sans-serif;
@@ -73,11 +73,17 @@ html, body {
 @mint:#80ffbf;
 
 //fonts//
+
 @bold:'Fjalla One', sans-serif;
-@cursive: 'Lobster', cursive;
+@cursive: 'Akronim', cursive;
 @plain: 'Dosis', sans-serif;
 
 //mixins//
+// .fonts(@size @family @c){
+// 	font-size:@size;
+// 	font-family:@family;
+// 	color:@c
+// }
 
 body{
 	padding:0 4%;
@@ -113,8 +119,82 @@ body{
 		justify-content: space-around;
 		flex-direction: column;
 		align-items: center;
-				
+		
+
+		.name{
+			color:@purple;
+			font-style: @bold;
+			font-size: 1.9rem;
+			padding-bottom: 2rem;
+		}//closed name
+
+		.note{
+			color: @purple;
+			font-size: 0.6rem;
+			font-style: @plain;
+		}//closed note
 		
 	}//closes me
+
+	.top{
+		display:flex;
+		justify-content: space-around;
+		padding: 5em 0;
+		
+
+		.objective{
+			width:50%;
+			text-align: left;
+			background-color: @mint;
+			color:white;
+			padding-bottom: 1em;
+			text-align: center;
+			
+		}//closed objective
+
+		.Skills{
+
+		}
+
+	}//closed top
+
+	h2{
+		font-size: 1.5rem;
+		color: @purple;
+		padding-bottom: 1em;
+	}
+
+	.bottom{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.table, tr, th, td{
+			border:2px dotted @purple;
+			margin-top:0 4%;
+			// padding: 5% 15%;
+			text-align: left;
+			color:@purple;
+			font-style: @cursive;
+			
+		}
+		}//end of bottom
+
+		footer{
+			background-color: @cream;
+		.foot{
+			a{text-decoration: none;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			color:@purple;
+			
+			}//closed anchors
+		}//closed foot
+	}//closed footer
+
+
+	
+
 	
 

@@ -124,7 +124,7 @@ q:after {
 }
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 5em;
 }
 /* Fonts and styles
 font-family: 'Fjalla One', sans-serif;
@@ -169,4 +169,58 @@ body {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+}
+.me .name {
+  color: #cc00cc;
+  font-style: 'Fjalla One', sans-serif;
+  font-size: 1.9rem;
+  padding-bottom: 2rem;
+}
+.me .note {
+  color: #cc00cc;
+  font-size: 0.6rem;
+  font-style: 'Dosis', sans-serif;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 0;
+}
+.top .objective {
+  width: 50%;
+  text-align: left;
+  background-color: #80ffbf;
+  color: white;
+  padding-bottom: 1em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+  color: #cc00cc;
+  padding-bottom: 1em;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom .table,
+.bottom tr,
+.bottom th,
+.bottom td {
+  border: 2px dotted #cc00cc;
+  margin-top: 0 4%;
+  text-align: left;
+  color: #cc00cc;
+  font-style: 'Akronim', cursive;
+}
+footer {
+  background-color: #ffeb99;
+}
+footer .foot a {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #cc00cc;
 }
