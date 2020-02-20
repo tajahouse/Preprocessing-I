@@ -183,10 +183,18 @@ body {
 }
 .top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5em 0;
 }
 .top .objective {
+  width: 50%;
+  text-align: left;
+  background-color: #80ffbf;
+  color: white;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.top .Skills {
   width: 50%;
   text-align: left;
   background-color: #80ffbf;
@@ -204,12 +212,12 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.bottom .table,
 .bottom tr,
 .bottom th,
 .bottom td {
   border: 2px dotted #cc00cc;
   margin-top: 0 4%;
+  padding: 5% 15%;
   text-align: left;
   color: #cc00cc;
   font-style: 'Akronim', cursive;

@@ -90,6 +90,7 @@ body{
 	background-image: url("../images/splash-img.jpg") ;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	@media
 
 }
 
@@ -138,7 +139,7 @@ body{
 
 	.top{
 		display:flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		padding: 5em 0;
 		
 
@@ -153,7 +154,12 @@ body{
 		}//closed objective
 
 		.Skills{
-
+			width:50%;
+			text-align: left;
+			background-color: @mint;
+			color:white;
+			padding-bottom: 1em;
+			text-align: center;
 		}
 
 	}//closed top
@@ -169,15 +175,16 @@ body{
 		justify-content: center;
 		align-items: center;
 
-		.table, tr, th, td{
+		tr, th, td{
 			border:2px dotted @purple;
 			margin-top:0 4%;
-			// padding: 5% 15%;
+			padding: 5% 15%;
 			text-align: left;
 			color:@purple;
 			font-style: @cursive;
 			
 		}
+		
 		}//end of bottom
 
 		footer{
