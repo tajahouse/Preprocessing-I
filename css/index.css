@@ -133,29 +133,35 @@ font-family: 'Dosis', sans-serif;*/
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  padding: auto;
+  margin: auto;
 }
 html,
 body {
   height: 100%;
 }
+body {
+  padding: 0 4%;
+}
 .header {
-  background-color: #cc00cc;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  padding-left: 2em;
-  color: #ffeb99;
+  width: auto;
   font-family: 'Lobster', cursive;
-  font-size: 3rem;
+  background-color: #cc00cc;
+  font-size: 2rem;
   padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .header .navb {
-  font-size: 1rem;
+  font-size: 25px;
   font-family: 'Fjalla One', sans-serif;
-  align-items: flex-end;
   padding-top: 7em;
+  text-decoration: none;
 }
-.navb {
-  display: flex;
-  justify-content: space-around;
+.header img {
+  height: 30vh;
+  border-radius: 50%;
 }

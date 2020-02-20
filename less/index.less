@@ -56,6 +56,10 @@ font-family: 'Dosis', sans-serif;*/
 * {
 	box-sizing: border-box;
 	max-width: 100%;
+	height:auto;
+	padding:auto;
+	margin: auto;
+	
 }
 
 
@@ -74,44 +78,40 @@ html, body {
 @plain: 'Dosis', sans-serif;
 
 //mixins//
-.headers{
 
+body{
+	padding:0 4%;
 }
-
 
 .header{
+	width: auto;
+	font-family: @cursive; 	
 	background-color: @purple;
-	display: flex;
-	justify-content: space-evenly;
-	// justify-content: space-around;
-	padding-left: 2em;
-	color:@cream;
-	font-family: @cursive; 
 	
-	
-	font-size: 3rem;
+	font-size: 2rem;
 	padding-bottom: 3rem;
-
-	.navb{
-	  font-size: 1rem;
-	  font-family: @bold;
-	  align-items: flex-end;
-	  padding-top: 7em;
-	//   background color: rbga(128, 255, 191,.4 )  
-
-	}//closes nav bar
-
-	img{
-		width:100%;
-		height:5vh;
-		display:none;
-
-	}//closes selfie pic
-}//closes header
-
-.navb{
+	
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+
+	.navb{
+	  font-size: 25px;
+	  font-family: @bold;
+	  padding-top: 7em;	
+	  text-decoration: none;
+
+	}//closes nav bar
 	
-}
+	img{
+		height: 30vh;
+		border-radius: 50%;
+	}
+	
+}//closes header
+
+
+
+
+
 
