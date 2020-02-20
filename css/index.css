@@ -147,21 +147,17 @@ body {
 }
 .header {
   width: auto;
-  font-family: 'Lobster', cursive;
-  background-color: #cc00cc;
-  font-size: 2rem;
+  font-family: 'Fjalla One', sans-serif;
+  background-color: #ffeb99;
+  font-size: 1rem;
   padding-bottom: 3rem;
+}
+.header .links {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  padding-top: 3em;
 }
-.header .navb {
-  font-size: 25px;
-  font-family: 'Fjalla One', sans-serif;
-  padding-top: 7em;
+.header .links a {
   text-decoration: none;
-}
-.header img {
-  height: 30vh;
-  border-radius: 50%;
+  color: #cc00cc;
 }
